@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.header__desc{
+    text-decoration: none;
+    color: blue;
+}
+.card-one,.card-two,.card-three,.card-four{
+    height: 300px;
+    width: 200px;
+    background-color: transparent;
+    display: inline-block;
+    border: solid 2px black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.body{
+    text-align: center;
+}
+.card-one__button,.card-two__button,.card-three__button,.card-four__button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+}
+.card-one__button:hover,.card-two__button:hover,.card-three__button:hover,.card-four__button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.footer__button{
+    background-color: yellow;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.footer__form{
+    padding-left: 590px;
+}
